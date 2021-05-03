@@ -1,0 +1,76 @@
+.projects-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(252, 252, 252);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* margin-top: 10px; */
+}
+.projects-section > h2 {
+  margin: 20px;
+  font-family: "Roboto", cursive;
+}
+.projects-holder {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.misc-header {
+  font-family: "Roboto", cursive;
+  padding-top: 20px;
+  text-align: center;
+}
+.wp-request {
+  font-family: "Roboto", cursive;
+  margin: 20px 0 30px 0;
+}
+
+.wp_misc-header {
+  font-family: "Roboto", cursive;
+  text-decoration: underline;
+}
+
+@media (max-width: 1474px) {
+}
+@media (max-width: 1300px) {
+}
+@media (max-width: 1190px) {
+}
+
+@media (max-width: 1070px) {
+  .projects-holder {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .projects-holder {
+    width: 90%;
+  }
+}
+
+@media (max-width: 720px) {
+  .projects-holder {
+    width: 95%;
+  }
+}
+
+@media (max-width: 635px) {
+  .projects-holder {
+    width: 98%;
+  }
+}
+
+@media (max-width: 495px) {
+}
+@media (max-width: 420px) {
+}
