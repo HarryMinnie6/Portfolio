@@ -1,98 +1,165 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Bhai+2|Baloo+Tamma+2|Bellota+Text|Oxanium&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=News+Cycle&family=Roboto:ital,wght@1,300&display=swap");
 
-.navigation-bar {
-  display: flex;
+/*Desktop View*/
+.header {
   position: fixed;
-  width: 100%;
-  justify-content: center;
-  align-items: flex;
+  /* top:0; */
+  width: 100vw;
+  display: flex;
   background-color: rgb(0, 0, 0);
-  font-family: "Roboto", cursive;
-  z-index: 1;
-  padding-right: 40px;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 40px; */
+  height: 70px;
+  z-index: 99;
   box-sizing: border-box;
-  top: 0;
-  box-sizing: border-box;
-  transition: 0.3s ease-in-out;
+  transition: opacity 500ms ease-in-out;
   opacity: 0.85;
 }
-.nav-links ul {
-  margin: 0;
-  padding: 0;
+.header2 {
+  position: fixed;
+  /* top:0; */
+  width: 100vw;
   display: flex;
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  /* padding: 0px 40px; */
+  height: 80px;
+  z-index: 99;
+  box-sizing: border-box;
+  /* top: -60px; */
+  opacity: 0;
+  transition: opacity 300ms ease-out;
 }
-.nav-links li {
-  list-style: none;
+
+
+
+.nav-options {
+  /* padding-left: 25px; */
+  display: flex;
+
+  list-style-type: none;
 }
-.nav-links li a {
+.mobile-option {
+  display: none;
+}
+.option {
+  /* padding: 0 20px; */
   text-decoration: none;
+}
+.option:hover {
+  cursor: pointer;
+  
+  /* text-decoration: underline; */
+}
+.link {
+  text-decoration: none;
+  font-size: 1.8rem;
   color: #59d2fe;
   padding: 1rem;
   display: block;
-  font-size: 1.8rem;
+  /* background-color:blueviolet */
 }
-.nav-links a:hover {
+.link:hover{
+  color: #caa8f5;
+
+}
+.link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  /* background-color: black; */
+  margin-top: 2px;
+}
+.link:hover::after {
+  width: 100%;
+  transition: all 0.4s;
   color: #caa8f5;
 }
-/* hamburger-menu start*/
-.hamburger-button {
-  position: absolute;
-  top: 1.2rem;
-  right: 1.5rem;
+
+.mobile-menu {
   display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 35px;
-  height: 25px;
 }
-.hamburger-button .bar {
-  height: 4px;
-  width: 100%;
-  background-color: rgb(230, 230, 230);
-  border-radius: 4px;
-  background: rgb(64, 64, 75);
-}
-@media (max-width: 765px) {
-  .navigation-bar {
-    padding-right: 20px;
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    top:0;
+    right:0;
+    width: 20vw;
+    display: flex;
+    background-color: rgba(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 40px; */
+    height: 80px;
+    z-index: 99;
+    box-sizing: border-box;
+    transition: opacity 500ms ease-out;
+    opacity: 0.85;
   }
-  .nav-links li a {
-    padding: 1rem;
+  /*Mobile View */
+ 
+  /* .logo {
+    width: 45px;
+    height: 45px;
+  } */
+  .nav-options {
+    display: flex;
+    width: 100vw;
+    height: fit-content;
+    position: absolute;
+    
+    top: 0;
+    top: -500px;
+    right: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 10px 0;
+    
+  }
+  .nav-options.active {
+    
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    right: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 19;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+    color: #59d2fe;;
+    
+  
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 10vw; */
+    /* padding: 20px 0px; */
+    /* border-bottom: 1px solid rgb(243, 243, 243); */
+  }
+  .link {
     font-size: 1.5rem;
-  }
-  .hamburger-button {
-    width: 40px;
-    height: 28px;
+    padding: 1rem;
+  
+    /* background-color:blueviolet */
   }
 }
-@media (max-width: 630px) {
-  .hamburger-button {
-    display: flex;
-    width: 38px;
-    height: 28px;
-    top: 1.2rem;
-    right: 1.5rem;
-  }
-  .nav-links {
-    display: none;
-    width: 100%;
-  }
-  .navigation-bar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .nav-links ul {
-    flex-direction: column;
-    width: 100%;
-  }
-  .nav-links li {
-    text-align: center;
-  }
-  .nav-links li a {
-    padding: 0.5rem 0.5rem;
-  }
-  .nav-links.active {
-    display: flex;
-  }
+.mobile-menu {
+  position: absolute;
+  display: block;
+  right: 20px;
+  z-index: 99;
+ 
 }

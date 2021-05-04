@@ -1,4 +1,3 @@
-/* ------------------------------------------------- */
 footer {
   display: flex;
   height: 60px;
@@ -33,3 +32,48 @@ footer {
   width: 150px;
   margin: 20px;
 }
+.wp_misc-header {
+  text-decoration: underline;
+}
+
+@media (max-width: 1474px) {
+ 
+}
+@media (max-width: 1300px) {
+ 
+}
+@media (max-width: 1190px) {
+}
+
+@media (max-width: 1070px) {
+  
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 720px) {
+ 
+}
+
+@media (max-width: 635px) {
+}
+
+  @media (max-width: 495px) {
+  
+ 
+
+    footer {
+      font-size: 0.8rem;
+      height: 50px;
+    }
+  
+  }
+  @media (max-width: 420px) {
+ 
+  
+  }
+  @media (max-width: 374px) {
+ 
+  
+  }
