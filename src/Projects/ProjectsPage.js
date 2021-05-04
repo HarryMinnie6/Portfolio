@@ -19,12 +19,11 @@ function ProjectsPage() {
     <section className='projects-section' id='projects'>
       <h2>PROJECTS</h2>
       <div className='projects-holder'>
-   
         <Project
           project__name={"Covid-19 Tracker"}
           project__image={coronaTracker}
           project__description={
-            "A live Covid-19 Tracker where world wide statistics can be viewed or indivdual country statistics. "
+            "A live Covid-19 Tracker where the world wide statistics can be viewed or individual country statistics can be viewed. "
           }
           made__using={"Made using React and Material UI (with React Hooks)"}
           github__link={"https://github.com/HarryMinnie6/corona-tracker"}
@@ -34,7 +33,7 @@ function ProjectsPage() {
           project__name={"NodeJS login"}
           project__image={nodejsLogin}
           project__description={
-            "A NodeJS login system where the user can register or login with existing details.This project was built to be used in future projects where login/ registration is required. "
+            "A login and logout application using NodeJS, EJS (embedded JavaScript), Express.js, bcrypt and passport. This was made to be used and built on for future projects where login/logout functions are needed. "
           }
           made__using={
             "Made using EJS (embedded JavaScript), Express.js, HTML5, CSS3"
@@ -115,25 +114,25 @@ function ProjectsPage() {
           demo__link={"https://harryminnie6.github.io/Sunset-Skim-boards/"}
         />
         <Project
-        project__name={"Chrome Dino Game"}
-        project__image={dinoGame}
-        project__description={
-          "A similar version of the Google Chrome dinosaur game built with HTML, CSS and vanilla JavaScript. If the player touches an object the game restarts. "
-        }
-        made__using={"Made with HTML, CSS, JavaScript."}
-        github__link={"https://github.com/HarryMinnie6/chrome-dino-replica"}
-        demo__link={"https://harryminnie6.github.io/chrome-dino-replica/"}
-      />
-      <Project
-        project__name={"Brick Breaker"}
-        project__image={brickBreaker}
-        project__description={
-          "A game of brick breaker. The game speed increases as the game progresses. If the ball passesthe paddle the game is over. "
-        }
-        made__using={"Made with HTML, CSS, JavaScript."}
-        github__link={"https://github.com/HarryMinnie6/brick-breaker"}
-        demo__link={"https://harryminnie6.github.io/brick-breaker/"}
-      />
+          project__name={"Chrome Dino Game"}
+          project__image={dinoGame}
+          project__description={
+            "A similar version of the Google Chrome dinosaur game built with HTML, CSS and vanilla JavaScript. If the player touches an object the game restarts. "
+          }
+          made__using={"Made with HTML, CSS, JavaScript."}
+          github__link={"https://github.com/HarryMinnie6/chrome-dino-replica"}
+          demo__link={"https://harryminnie6.github.io/chrome-dino-replica/"}
+        />
+        <Project
+          project__name={"Brick Breaker"}
+          project__image={brickBreaker}
+          project__description={
+            "A game of brick breaker. The game speed increases as the game progresses. If the ball passes the paddle the game is over. "
+          }
+          made__using={"Made with HTML, CSS, JavaScript."}
+          github__link={"https://github.com/HarryMinnie6/brick-breaker"}
+          demo__link={"https://harryminnie6.github.io/brick-breaker/"}
+        />
         <Project
           project__name={"Rock Paper Scissors"}
           project__image={rockPaperScissors}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./ContactPage.css";
+import cv from '../ContactPage/Curriculum-vitae-of-Harry-Minnie-(EU).pdf'
 function ContactPage() {
   return (
     <section class='contact-section' id='contact'>
@@ -63,7 +64,7 @@ function ContactPage() {
         </a>
       </div>
       <div class='cv'>
-        <a href='Curriculum-vitae-of-Harry-Minnie_EU.pdf'> Download my CV</a>
+        <a href={cv}> Download my CV</a>
       </div>
     </section>
   );
