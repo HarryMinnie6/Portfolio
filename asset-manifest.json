@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.3c17a782.chunk.css",
+    "main.js": "/Portfolio/static/js/main.568fae2c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.568fae2c.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f0082706.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f0082706.js.map",
+    "static/js/2.38147aa4.chunk.js": "/Portfolio/static/js/2.38147aa4.chunk.js",
+    "static/js/2.38147aa4.chunk.js.map": "/Portfolio/static/js/2.38147aa4.chunk.js.map",
+    "static/js/3.e769cd8e.chunk.js": "/Portfolio/static/js/3.e769cd8e.chunk.js",
+    "static/js/3.e769cd8e.chunk.js.map": "/Portfolio/static/js/3.e769cd8e.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.3c17a782.chunk.css.map": "/Portfolio/static/css/main.3c17a782.chunk.css.map",
+    "static/js/2.38147aa4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.38147aa4.chunk.js.LICENSE.txt",
+    "static/media/brick-breaker.168c7e88.png": "/Portfolio/static/media/brick-breaker.168c7e88.png",
+    "static/media/corona-tracker.ab6e43d1.png": "/Portfolio/static/media/corona-tracker.ab6e43d1.png",
+    "static/media/dev-searcher.752e5b5b.png": "/Portfolio/static/media/dev-searcher.752e5b5b.png",
+    "static/media/dino-replica.6fd6ce9e.png": "/Portfolio/static/media/dino-replica.6fd6ce9e.png",
+    "static/media/fakealot.bb7df601.png": "/Portfolio/static/media/fakealot.bb7df601.png",
+    "static/media/image3-cutout.bf915806.jpg": "/Portfolio/static/media/image3-cutout.bf915806.jpg",
+    "static/media/legal-one-display.b4d30599.png": "/Portfolio/static/media/legal-one-display.b4d30599.png",
+    "static/media/menu.c21acb3a.svg": "/Portfolio/static/media/menu.c21acb3a.svg",
+    "static/media/netflix.7d284509.png": "/Portfolio/static/media/netflix.7d284509.png",
+    "static/media/nodejs-jwt-login.9110558b.png": "/Portfolio/static/media/nodejs-jwt-login.9110558b.png",
+    "static/media/random-buy.d35127cd.png": "/Portfolio/static/media/random-buy.d35127cd.png",
+    "static/media/rps.d6014fa3.png": "/Portfolio/static/media/rps.d6014fa3.png",
+    "static/media/struisbaai-house.1e64aba2.png": "/Portfolio/static/media/struisbaai-house.1e64aba2.png",
+    "static/media/sunset-skimboards.904635e6.png": "/Portfolio/static/media/sunset-skimboards.904635e6.png",
+    "static/media/weather.b2a6f2f4.png": "/Portfolio/static/media/weather.b2a6f2f4.png",
+    "static/media/x.cb990eee.svg": "/Portfolio/static/media/x.cb990eee.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f0082706.js",
+    "static/js/2.38147aa4.chunk.js",
+    "static/css/main.3c17a782.chunk.css",
+    "static/js/main.568fae2c.chunk.js"
+  ]
+}
