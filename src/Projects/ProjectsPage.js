@@ -14,11 +14,22 @@ import netflix from "../Projects/project-images/netflix.png";
 import sunsetSkimBoards from "../Projects/project-images/sunset-skimboards.png";
 import rockPaperScissors from "../Projects/project-images/rps.png";
 import weather from "../Projects/project-images/weather.png";
+import cryptoView from "../Projects/project-images/crypto-view.png";
 function ProjectsPage() {
   return (
     <section className='projects-section' id='projects'>
       <h2>PROJECTS</h2>
       <div className='projects-holder'>
+        <Project
+          project__name={"Crypto-View"}
+          project__image={cryptoView}
+          project__description={
+            "A Cryptocurrency dashboard where users can find out more information on what crypotcurrency is. Users are also able to search for different types of cryptocurrency and get information about those coins/currency. "
+          }
+          made__using={"Made using React and Material UI (with React Hooks)"}
+          github__link={"https://github.com/HarryMinnie6/crypto-view"}
+          demo__link={"https://harryminnie6.github.io/crypto-view/"}
+        />
         <Project
           project__name={"Covid-19 Tracker"}
           project__image={coronaTracker}
