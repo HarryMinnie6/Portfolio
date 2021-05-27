@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7fa62e37.chunk.css",
-    "main.js": "/Portfolio/static/js/main.29169f13.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.29169f13.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.abc18d42.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.abc18d42.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f0082706.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f0082706.js.map",
     "static/js/2.38147aa4.chunk.js": "/Portfolio/static/js/2.38147aa4.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Curriculum-vitae-of-Harry-Minnie-(EU).3461726a.pdf": "/Portfolio/static/media/Curriculum-vitae-of-Harry-Minnie-(EU).3461726a.pdf",
     "static/media/brick-breaker.168c7e88.png": "/Portfolio/static/media/brick-breaker.168c7e88.png",
     "static/media/corona-tracker.ab6e43d1.png": "/Portfolio/static/media/corona-tracker.ab6e43d1.png",
+    "static/media/crypto-view.7a857ef0.png": "/Portfolio/static/media/crypto-view.7a857ef0.png",
     "static/media/dev-searcher.752e5b5b.png": "/Portfolio/static/media/dev-searcher.752e5b5b.png",
     "static/media/dino-replica.6fd6ce9e.png": "/Portfolio/static/media/dino-replica.6fd6ce9e.png",
     "static/media/fakealot.bb7df601.png": "/Portfolio/static/media/fakealot.bb7df601.png",
@@ -34,6 +35,6 @@
     "static/js/runtime-main.f0082706.js",
     "static/js/2.38147aa4.chunk.js",
     "static/css/main.7fa62e37.chunk.css",
-    "static/js/main.29169f13.chunk.js"
+    "static/js/main.abc18d42.chunk.js"
   ]
 }
