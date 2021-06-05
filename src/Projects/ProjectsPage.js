@@ -24,7 +24,7 @@ function ProjectsPage() {
           project__name={"Crypto-View"}
           project__image={cryptoView}
           project__description={
-            "A Cryptocurrency dashboard where users can find out more information on what crypotcurrency is. Users are also able to search for different types of cryptocurrency and get information about those coins/currency."
+            "A Cryptocurrency dashboard where users can find out more information on what crypocurrency is. Users are also able to search for different types of cryptocurrency and get information about those coins/currency."
           }
           made__using={"Made using React and Material UI (with React Hooks)"}
           github__link={"https://github.com/HarryMinnie6/crypto-view"}
