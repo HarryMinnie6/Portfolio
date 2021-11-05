@@ -41,7 +41,7 @@ function SkillsPage() {
           <p>React</p>
 
           <div className='dev-tools-wrapper'>
-            <h5>Dev Tools:</h5>
+            <h4>Dev Tools:</h4>
             <p>Visual Studio Code</p>
             <p>Terminal</p>
             <p>Git</p>
