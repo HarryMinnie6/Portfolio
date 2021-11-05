@@ -41,14 +41,14 @@ function ProjectsPage() {
             project__name={"Unreal-NFT's"}
             project__image={unrealNFTS}
             project__description={
-              "A website for a start-up company in South Africa specializing in listing Non-fungible tokens (NFTs). My client wanted a website focusing on visual design, striking colors and an easy to use layout. Their main requirement was displaying their expertise in assisting potential clients in listing Non-fungible tokens in the crypto currency space."
+              "A website for a start-up company in South Africa specializing in listing Non-fungible tokens (NFTs). My client wanted a website focusing on visual design, striking colors and an easy to use layout. Their main requirement was displaying their expertise in assisting potential clients in listing NFTS in the crypto currency space."
             }
             made__using={"Made using React (with React Hooks)"}
             // github__link={"https://github.com/HarryMinnie6/crypto-view"}
             demo__link={"https://www.unreal-nfts.com/"}
           />
           <Project
-            project__name={"Merge-Iot"}
+            project__name={"Merge-IoT"}
             project__image={mergeIot}
             project__description={
               "A website for a start-up company in the Netherlands specializing in the Internet of Things (IoT). My client wanted an easy to use, clean and modern design showcasing there services and leading industry expertise."
