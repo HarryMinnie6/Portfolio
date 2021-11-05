@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7fa62e37.chunk.css",
-    "main.js": "/Portfolio/static/js/main.9b21b72e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.9b21b72e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.c48497bf.chunk.css",
+    "main.js": "/Portfolio/static/js/main.1a515251.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1a515251.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.f0082706.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f0082706.js.map",
     "static/js/2.38147aa4.chunk.js": "/Portfolio/static/js/2.38147aa4.chunk.js",
@@ -10,10 +10,12 @@
     "static/js/3.e769cd8e.chunk.js": "/Portfolio/static/js/3.e769cd8e.chunk.js",
     "static/js/3.e769cd8e.chunk.js.map": "/Portfolio/static/js/3.e769cd8e.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.7fa62e37.chunk.css.map": "/Portfolio/static/css/main.7fa62e37.chunk.css.map",
+    "static/css/main.c48497bf.chunk.css.map": "/Portfolio/static/css/main.c48497bf.chunk.css.map",
     "static/js/2.38147aa4.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.38147aa4.chunk.js.LICENSE.txt",
     "static/media/Curriculum-vitae-of-Harry-Minnie-(EU).3461726a.pdf": "/Portfolio/static/media/Curriculum-vitae-of-Harry-Minnie-(EU).3461726a.pdf",
+    "static/media/blog.c0490c98.png": "/Portfolio/static/media/blog.c0490c98.png",
     "static/media/brick-breaker.168c7e88.png": "/Portfolio/static/media/brick-breaker.168c7e88.png",
+    "static/media/coming-soon.f1fc0281.png": "/Portfolio/static/media/coming-soon.f1fc0281.png",
     "static/media/corona-tracker.ab6e43d1.png": "/Portfolio/static/media/corona-tracker.ab6e43d1.png",
     "static/media/crypto-view.7a857ef0.png": "/Portfolio/static/media/crypto-view.7a857ef0.png",
     "static/media/dev-searcher.752e5b5b.png": "/Portfolio/static/media/dev-searcher.752e5b5b.png",
@@ -22,19 +24,22 @@
     "static/media/image3-cutout.bf915806.jpg": "/Portfolio/static/media/image3-cutout.bf915806.jpg",
     "static/media/legal-one-display.b4d30599.png": "/Portfolio/static/media/legal-one-display.b4d30599.png",
     "static/media/menu.c21acb3a.svg": "/Portfolio/static/media/menu.c21acb3a.svg",
+    "static/media/merge-iot.273a19b3.png": "/Portfolio/static/media/merge-iot.273a19b3.png",
     "static/media/netflix.7d284509.png": "/Portfolio/static/media/netflix.7d284509.png",
     "static/media/nodejs-jwt-login.9110558b.png": "/Portfolio/static/media/nodejs-jwt-login.9110558b.png",
+    "static/media/normanlly-display.6e2aef90.png": "/Portfolio/static/media/normanlly-display.6e2aef90.png",
     "static/media/random-buy.d35127cd.png": "/Portfolio/static/media/random-buy.d35127cd.png",
     "static/media/rps.d6014fa3.png": "/Portfolio/static/media/rps.d6014fa3.png",
     "static/media/struisbaai-house.1e64aba2.png": "/Portfolio/static/media/struisbaai-house.1e64aba2.png",
     "static/media/sunset-skimboards.904635e6.png": "/Portfolio/static/media/sunset-skimboards.904635e6.png",
+    "static/media/unreal-nfts.0d4355c0.png": "/Portfolio/static/media/unreal-nfts.0d4355c0.png",
     "static/media/weather.b2a6f2f4.png": "/Portfolio/static/media/weather.b2a6f2f4.png",
     "static/media/x.cb990eee.svg": "/Portfolio/static/media/x.cb990eee.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f0082706.js",
     "static/js/2.38147aa4.chunk.js",
-    "static/css/main.7fa62e37.chunk.css",
-    "static/js/main.9b21b72e.chunk.js"
+    "static/css/main.c48497bf.chunk.css",
+    "static/js/main.1a515251.chunk.js"
   ]
 }
