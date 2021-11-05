@@ -29,6 +29,7 @@
 }
 .design-description {
   min-height: 300px;
+  max-height: 460px;
   background-color: rgb(252, 252, 252);
   border: 1px solid rgb(228, 228, 228);
 }
@@ -39,6 +40,7 @@
 }
 .learning-description {
   min-height: 300px;
+  max-height: 460px;
   background-color: rgb(252, 252, 252);
   border: 1px solid rgb(228, 228, 228);
 }
@@ -185,7 +187,7 @@
     height: 350px;
   }
   .front-end-description {
-    height: 550px;
+    height: 620px;
   }
   .learning-description {
     height: 400px;
